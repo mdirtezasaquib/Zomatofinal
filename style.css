@@ -389,6 +389,7 @@ color: #666;
 
     .hero h1 {
         font-size: 20px;
+        width: 90%
     }
 
     .hero input {
@@ -406,6 +407,7 @@ color: #666;
     .container4 h1 {
         font-size: 22px;
         text-align: center;
+        margin-left: 30px;
     }
 
     .card h3 {

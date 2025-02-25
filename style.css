@@ -386,6 +386,9 @@ color: #666;
     .navbar {
         padding: 10px 20px;
     }
+    .container4,.grid{
+        margin-right: 10px;
+    }
 
     .hero h1 {
         font-size: 20px;

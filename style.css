@@ -1,0 +1,430 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d32f2f;
+    padding: 15px 50px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Nav Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 0;
+}
+
+/* Hero Section */
+.hero {
+    background: url('IMAGE/first.png') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.dabba {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.item {
+    background: #ffffff;
+    width: 400px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #E8E8E8;
+    height: 320px;
+}
+.item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.item h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.item p {
+    font-size: 16px;
+    color: #666;
+}
+.a {
+    margin-top: 70px;
+    font-size: 50px;
+    color: #333;
+    font-weight: 30px; 
+    margin-left: 150px
+}
+.b{
+    color: black;
+    margin-left: 145px;
+    padding: 10px;
+}
+.container3 {
+display: flex; 
+gap: 20px; 
+justify-content: center; 
+align-items: flex-start;
+margin: 20px 0;
+flex-wrap: wrap; 
+}
+.item3 {
+background: #fff; 
+text-align: center; 
+width: 250px; 
+padding: 10px; 
+}
+.item3 img {
+width: 100%;
+height: 300px; 
+object-fit: cover; 
+border-radius: 8px; 
+margin-bottom: 10px; 
+}
+.container4 {
+margin: 20px 0;
+margin-left: 25px;
+margin-top: 100px;
+}
+
+.container4 h1 {
+font-size: 28px;
+margin-bottom: 20px;
+color: #333;
+margin-left: 70px;
+}
+
+.container4 h1 span {
+color: black;
+font-weight: bold;
+}
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+max-width: 1200px;
+margin: 0 auto;
+padding: 10px;
+}
+.card {
+background: white;
+border: 1px solid #e0e0e0;
+border-radius: 8px;
+padding: 15px;
+text-align: center;
+}
+.card h3 {
+font-size: 18px;
+color: #333;
+margin-bottom: 10px;
+}
+.card p {
+font-size: 14px;
+color: #666;
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #FFFBF7;
+    margin-top: 100px;
+}
+.app-mobile {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    max-width: 1200px;
+}
+.app-image img {
+    width: 400px;
+    max-width: 100%;
+}
+.app-text {
+    max-width: 500px;
+    text-align: left;
+}
+.app-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.app-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+.app-input label {
+    font-size: 16px;
+    margin-right: 15px;
+    color: #333;
+}
+.app-input input {
+    margin-right: 5px;
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+#input-field {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#share-link-btn {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.app-stores img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.container4,.grid,.card a{
+    text-decoration: none;
+}
+
+/* For tablets and small laptops (768px to 1024px) */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero input {
+        width: 80%;
+    }
+
+    .dabba {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item {
+        width: 300px;
+        height: auto;
+    }
+
+    .container3 {
+        flex-wrap: wrap;
+    }
+
+    .item3 {
+        width: 200px;
+    }
+
+    .app-mobile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .app-image img {
+        width: 300px;
+    }
+
+    #input-field {
+        width: 100%;
+    }
+
+    .app-stores img {
+        width: 100px;
+    }
+}
+
+/* For mobile screens (up to 768px) */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #d32f2f;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero input {
+        width: 90%;
+    }
+
+    .dabba {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    .a, .b {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item3 {
+        width: 90%;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .app-text {
+        text-align: center;
+    }
+
+    .app-input {
+        justify-content: center;
+    }
+
+    .input-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #input-field {
+        width: 100%;
+    }
+
+    #share-link-btn {
+        width: 100%;
+    }
+}
+
+/* For small mobile screens (up to 480px) */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+    }
+
+    .hero input {
+        font-size: 14px;
+    }
+
+    .item h2 {
+        font-size: 20px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+
+    .container4 h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .app-image img {
+        width: 250px;
+    }
+
+    .app-text h1 {
+        font-size: 24px;
+    }
+
+    .app-text p {
+        font-size: 14px;
+    }
+
+    .app-stores img {
+        width: 90px;
+    }
+}

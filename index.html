@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <nav class="navbar">
+        <div class="logo">Zomato</div>
+        <ul class="nav-links">
+            <li><a href="#">Get the App</a></li>
+            <li><a href="#">Investors Relations</a></li>
+            <li><a href="#">Add Restaurants</a></li>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign up</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    
+    <div class="hero">
+        <h1>Discover the best food & drinks in Patna</h1>
+        <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+
+
+    <div class="dabba" style="margin-top: 30px;">
+        <div class="item">
+            <a href=""><img src="IMAGE/second.webp" alt="Cervical Pillow"></a>
+            <h2>Order Online</h2>
+            <p>Stay home and order to your door step</p>
+        </div>
+        <div class="item">
+            <a href=""><img src="IMAGE/third.webp" alt="Foam Filling Pillow"></a>
+            <h2>Dining</h2>
+            <p>View the city's favorite dining venues</p>
+        </div>
+        <div class="item">
+            <a href=""><img src="IMAGE/fourth.jpeg" alt="Memory Foam Pillow"></a>
+            <h2>Live Events</h2>
+            <p>Discover India's best events and concerts</p>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="a">Collections</h1>
+        <p class="b">Explore curated lists of top restaurants, cafes, pubs, and bars in Patna, based on trends</p>
+    </div>
+    
+    <div class="container3">
+        <div class="item3">
+            <a href=""><img src="IMAGE/home.jpg" alt="Cervical Pillow"></a>
+            
+        </div>
+        <div class="item3">
+            <a href=""><img src="IMAGE/third.webp" alt="Foam Filling Pillow"></a>
+           
+        </div>
+        <div class="item3">
+            <a href=""><img src="IMAGE/rissole.jpeg" alt="Memory Foam Pillow"></a>
+            
+        </div>
+
+        <div class="item3">
+            <a href=""><img src="IMAGE/recipie.jpg" alt="Memory Foam Pillow"></a>
+            
+        </div>
+    </div>
+
+
+    <div class="container4">
+        <h1>Popular localities in and around <span>Patna</span></h1>
+        <div class="grid">
+            <div class="card">
+                <a href="https://maps.app.goo.gl/5cu6YAPMBjxMT7HG8" target="_blank">
+                <h3>Fraser Road Area</h3>
+                <p>146 places</p></a>
+            </div>
+            <div class="card">
+                <h3>Golambar</h3>
+                <p>203 places</p>
+            </div>
+            <div class="card">
+                <h3>Sri Krishnapuri</h3>
+                <p>207 places</p>
+            </div>
+            <div class="card">
+                <h3>Kankarbagh</h3>
+                <p>530 places</p>
+            </div>
+            <div class="card">
+                <h3>Patliputra Colony</h3>
+                <p>237 places</p>
+            </div>
+            <div class="card">
+                <h3>Lodipur</h3>
+                <p>60 places</p>
+            </div>
+            <div class="card">
+                <h3>Khajpura</h3>
+                <p>307 places</p>
+            </div>
+            <div class="card">
+                <h3>Kidwaipuri</h3>
+                <p>110 places</p>
+            </div>
+            <div class="card">
+                <h3>See More</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="app">
+        <div class="app-mobile">
+            <div class="app-image">
+                <a href=""><img src="IMAGE/mobile.webp" alt=""></a>
+            </div>
+            <div class="app-text">
+                <h1>Get the Zomato app</h1>
+                <p>We will send you a link, open it on your phone to download the app</p>
+                <div class="app-input">
+                    <label>
+                        <input type="radio" name="contact" value="email" checked> Email
+                    </label>
+                    <label>
+                        <input type="radio" name="contact" value="phone"> Phone
+                    </label>
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Email" id="input-field">
+                    <button id="share-link-btn">Share App Link</button>
+                </div>
+                <div class="app-download">
+                    <p>Download app from</p>
+                    <div class="app-stores">
+                        <a href=""><img src="/ZOMATO PROJECT/IMAGE/gpay.webp" alt="Google Play Store" style="margin-bottom: 13px;" ></a>
+                        <a href=""><img src="/ZOMATO PROJECT/IMAGE/appstore.webp" alt="App Store" style="margin-bottom: 13px;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
